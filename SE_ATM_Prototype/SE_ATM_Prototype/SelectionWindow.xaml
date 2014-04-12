@@ -1,0 +1,21 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="SE_ATM_Prototype.SelectionWindow"
+	x:Name="Window"
+	Title="SelectionWindow"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot">
+		<Viewbox Margin="8">
+			<Grid Height="250" Width="389">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="0.187*"/>
+					<ColumnDefinition Width="0.813*"/>
+				</Grid.ColumnDefinitions>
+				<TextBlock Margin="15.54,8,62.885,0" TextWrapping="Wrap" Text="What would you like to do?" FontSize="16" Height="27" VerticalAlignment="Top" Grid.Column="1"/>
+				<Button Content="Deposit" Width="200" Height="40" Grid.Column="1" Margin="15.54,45.572,100.717,0" VerticalAlignment="Top"/>
+				<Button Content="Balance" Width="200" Height="40" Grid.Column="1" Margin="15.54,0,100.717,39.172" VerticalAlignment="Bottom"/>
+				<Button Content="Withdraw" Margin="15.54,107.487,100.717,102.513" Width="200" RenderTransformOrigin="0.514,-4.125" Grid.Column="1"/>
+			</Grid>
+		</Viewbox>
+	</Grid>
+</Window>
