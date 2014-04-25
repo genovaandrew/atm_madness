@@ -1,0 +1,26 @@
+C:\Users\Steve\Desktop\SE_ATM_Prototype\SE_ATM_Prototype\bin\Debug\SE_ATM_Prototype.exe
+C:\Users\Steve\Desktop\SE_ATM_Prototype\SE_ATM_Prototype\bin\Debug\SE_ATM_Prototype.pdb
+C:\Users\Steve\Desktop\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\MainWindow.baml
+C:\Users\Steve\Desktop\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\WelcomeScreen.baml
+C:\Users\Steve\Desktop\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\MainWindow.g.cs
+C:\Users\Steve\Desktop\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\WelcomeScreen.g.cs
+C:\Users\Steve\Desktop\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\App.g.cs
+C:\Users\Steve\Desktop\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\SE_ATM_Prototype_MarkupCompile.cache
+C:\Users\Steve\Desktop\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\SE_ATM_Prototype.g.resources
+C:\Users\Steve\Desktop\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\SE_ATM_Prototype.exe
+C:\Users\Steve\Desktop\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\SE_ATM_Prototype.pdb
+C:\Users\Steve\Desktop\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\SelectionWindow.baml
+C:\Users\Steve\Desktop\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\SelectionWindow.g.cs
+Z:\Backup 226gb\Desktopbackup\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\SE_ATM_Prototype.exe
+Z:\Backup 226gb\Desktopbackup\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\SE_ATM_Prototype.pdb
+Z:\Backup 226gb\Desktopbackup\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\MainWindow.baml
+Z:\Backup 226gb\Desktopbackup\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\SelectionWindow.baml
+Z:\Backup 226gb\Desktopbackup\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\WelcomeScreen.baml
+Z:\Backup 226gb\Desktopbackup\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\MainWindow.g.cs
+Z:\Backup 226gb\Desktopbackup\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\SelectionWindow.g.cs
+Z:\Backup 226gb\Desktopbackup\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\WelcomeScreen.g.cs
+Z:\Backup 226gb\Desktopbackup\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\App.g.cs
+Z:\Backup 226gb\Desktopbackup\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\SE_ATM_Prototype_MarkupCompile.cache
+Z:\Backup 226gb\Desktopbackup\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\SE_ATM_Prototype.g.resources
+Z:\Backup 226gb\Desktopbackup\SE_ATM_Prototype\SE_ATM_Prototype\bin\Debug\SE_ATM_Prototype.exe
+Z:\Backup 226gb\Desktopbackup\SE_ATM_Prototype\SE_ATM_Prototype\bin\Debug\SE_ATM_Prototype.pdb
