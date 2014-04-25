@@ -43,7 +43,7 @@ namespace SE_ATM_Prototype
 
         private void BalButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(String.Format("{0:N2}", bank.currentBalance()) + "\nEncrypted text: " + bank.encryptOTP(bank.CurrentUser.Balance.ToString()));
+            MessageBox.Show(String.Format("{0:N2}", bank.currentBalance()) +"\nPlaintext:" + bank.CurrentUser.Balance.ToString() + "\nEncrypted text: " + bank.encryptOTP(bank.CurrentUser.Balance.ToString()));
         }
 
         private void WithButton_Click(object sender, RoutedEventArgs e)
