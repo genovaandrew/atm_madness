@@ -22,6 +22,7 @@ namespace SE_ATM_Prototype
         //private String name;
         //private int balance;
         Account currentUser;
+        byte[] keyBytes;
 
 
         public Bank()
@@ -103,16 +104,15 @@ namespace SE_ATM_Prototype
 
         /*
          * This method is used to perform OTP encryption on a string before sending it over the network
-         * 
-         * 
+         * I think diffie hellman will have to be used to actually use this with communication between the
+         * ATM and a bank
          */
         public String encryptOTP(String input)
         {
             byte[] originalBytes;
-            byte[] keyBytes;
             byte[] outBytes;
             String plaintext = input;
-            String ciphertext = plaintext;
+            String ciphertext;
             originalBytes = new byte[input.Length* sizeof(char)];
             System.Buffer.BlockCopy(plaintext.ToCharArray(), 0, originalBytes, 0, originalBytes.Length);
             keyBytes = new byte[originalBytes.Length];
@@ -126,7 +126,7 @@ namespace SE_ATM_Prototype
 
             char[] chars = new char[outBytes.Length / sizeof(char)];
             System.Buffer.BlockCopy(outBytes, 0, chars, 0, outBytes.Length);
-            ciphertext = outBytes.ToString();
+            ciphertext = new string(chars);
             return ciphertext;
         }
 
