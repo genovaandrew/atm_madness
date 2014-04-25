@@ -17,18 +17,24 @@ namespace SE_ATM_Prototype
 	/// </summary>
 	public partial class mainWindow : Window
 	{
+       
+
 		public mainWindow()
 		{
+            Bank bank = new Bank();
 			this.InitializeComponent();
+            WelcomeScreen ws = new WelcomeScreen(bank);
+            ws.Show();
+            this.Close();
 			
 			// Insert code required on object creation below this point.
 		}
 		
 		private void test_Method(object sender, RoutedEventArgs e)
 		{
-			WelcomeScreen ws = new WelcomeScreen();
-			ws.Show();
-			this.Close();
+			//WelcomeScreen ws = new WelcomeScreen();
+			//ws.Show();
+			//this.Close();
 		}
 	}
 }

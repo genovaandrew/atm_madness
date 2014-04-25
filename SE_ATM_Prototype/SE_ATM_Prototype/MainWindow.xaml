@@ -7,7 +7,7 @@
 	Width="640" Height="480">
 
 	<Grid x:Name="LayoutRoot">
-		<TextBlock Height="37" Margin="263,60,229,0" TextWrapping="Wrap" Text="Test" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-		<Button HorizontalAlignment="Left" Height="18" Margin="263,109,0,0" VerticalAlignment="Top" Width="41" Content="TB" Click ="test_Method"/>
+		<TextBlock Height="37" Margin="263,60,229,0" TextWrapping="Wrap" Text="Main Window Screen" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+		<Button HorizontalAlignment="Left" Height="18" Margin="263,109,0,0" VerticalAlignment="Top" Width="41" Content="Enjoy" Click ="test_Method"/>
 	</Grid>
 </Window>

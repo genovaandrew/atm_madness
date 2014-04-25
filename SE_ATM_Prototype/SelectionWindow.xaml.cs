@@ -66,8 +66,11 @@ namespace SE_ATM_Prototype
         private void EndButton_Click(object sender, RoutedEventArgs e)
         {
             bank.endSession();
+<<<<<<< HEAD
             WelcomeScreen ws = new WelcomeScreen(bank);
             ws.Show();
+=======
+>>>>>>> 463e3b180a25e398959a3ecaddad1314ec05af25
             this.Close();
         }
 	}

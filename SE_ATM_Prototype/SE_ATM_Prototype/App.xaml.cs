@@ -11,5 +11,6 @@ namespace SE_ATM_Prototype
 	/// </summary>
 	public partial class App : Application
 	{
+        
 	}
 }

@@ -62,9 +62,20 @@ namespace SE_ATM_Prototype
             }
 		}
 
+<<<<<<< HEAD
         private void exit_click(object sender, RoutedEventArgs e)
         {
             this.Close();
+=======
+        private void ClearBtn_Click(object sender, RoutedEventArgs e)
+        {
+            pinBox.Text = string.Empty;
+        }
+
+        private void pinBox_GotMouseCapture(object sender, MouseEventArgs e)
+        {
+            pinBox.Text = string.Empty;
+>>>>>>> 463e3b180a25e398959a3ecaddad1314ec05af25
         }
 	}
 }

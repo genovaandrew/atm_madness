@@ -6,6 +6,16 @@ using System.Windows.Forms;
 
 namespace SE_ATM_Prototype
 {
+    /*
+     * 
+     * This bank class essentially just acts as a back end of the ATM machine itself. In our demo we use it
+     * for the bank, but if this were to be implemented in reality, the bank class would really just send
+     * instructions to a router to send things to the actual bank for verification. Adding this change would
+     * be fairly minor. 
+     * 
+     * Encryption algorithm would go in this class to send the requests off. 
+     * 
+     */
     public class Bank
     {
         List<Account> accountList;
@@ -89,6 +99,35 @@ namespace SE_ATM_Prototype
         {
             currentUser = null;
             MessageBox.Show("Logged out.");
+        }
+
+        /*
+         * This method is used to perform OTP encryption on a string before sending it over the network
+         * 
+         * 
+         */
+        public String encryptOTP(String input)
+        {
+            byte[] originalBytes;
+            byte[] keyBytes;
+            byte[] outBytes;
+            String plaintext = input;
+            String ciphertext = plaintext;
+            originalBytes = new byte[input.Length* sizeof(char)];
+            System.Buffer.BlockCopy(plaintext.ToCharArray(), 0, originalBytes, 0, originalBytes.Length);
+            keyBytes = new byte[originalBytes.Length];
+            outBytes = new byte[originalBytes.Length];
+            Random random = new Random();
+            random.NextBytes(keyBytes);
+            for (int i = 0; i < originalBytes.Length; i++)
+            {
+                outBytes[i] = (byte)(originalBytes[i] ^ keyBytes[i]);
+            }
+
+            char[] chars = new char[outBytes.Length / sizeof(char)];
+            System.Buffer.BlockCopy(outBytes, 0, chars, 0, outBytes.Length);
+            ciphertext = outBytes.ToString();
+            return ciphertext;
         }
 
 

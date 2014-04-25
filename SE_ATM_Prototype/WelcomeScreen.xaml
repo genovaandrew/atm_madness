@@ -7,6 +7,7 @@
 	Title="WelcomeScreen"
 	Width="640" Height="480">
 
+<<<<<<< HEAD
 	<Grid x:Name="LayoutRoot">
 		<TextBlock Height="24" Margin="282.975,55,0,0" TextWrapping="Wrap" Text="Hello!" VerticalAlignment="Top" Width="83.122" FontSize="18.667" HorizontalAlignment="Left"/>
 		<TextBlock Height="24" Margin="200,83,0,0" TextWrapping="Wrap" Text="Please enter your Name and PIN to proceed" VerticalAlignment="Top" HorizontalAlignment="Left"/>
@@ -15,4 +16,13 @@
 		<Button HorizontalAlignment="Right" Height="19" Margin="0,175,280,0" VerticalAlignment="Top" Width="60" Content="Login" Click="ok_click"/>
         <Button HorizontalAlignment="Right" Height="19" Margin="0,205,280,0" VerticalAlignment="Top" Width="60" Content="Exit"  Click="exit_click"/>
 	</Grid>
+=======
+    <Grid x:Name="LayoutRoot">
+        <TextBlock Height="24" Margin="282.975,55,0,0" TextWrapping="Wrap" Text="Hello!" VerticalAlignment="Top" Width="83.122" FontSize="18.667" HorizontalAlignment="Left"/>
+        <TextBlock Height="24" Margin="222,83,0,0" TextWrapping="Wrap" Text="Please enter your PIN to proceed" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBox x:Name="pinBox" Height="19" Margin="268,111,273,0" TextWrapping="Wrap" Text="Enter PIN" VerticalAlignment="Top" GotMouseCapture="pinBox_GotMouseCapture"/>
+        <Button HorizontalAlignment="Right" Height="19" Margin="0,111,227.397,0" VerticalAlignment="Top" Width="30.506" Content="OK" Click="ok_click" IsDefault="True"/>
+        <Button x:Name="ClearBtn" HorizontalAlignment="Right" Height="19" Margin="0,111,165,0" VerticalAlignment="Top" Width="57" Content="Clear" Click="ClearBtn_Click" IsCancel="True"/>
+    </Grid>
+>>>>>>> 463e3b180a25e398959a3ecaddad1314ec05af25
 </Window>
