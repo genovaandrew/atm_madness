@@ -24,3 +24,17 @@ Z:\Backup 226gb\Desktopbackup\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\SE_ATM
 Z:\Backup 226gb\Desktopbackup\SE_ATM_Prototype\SE_ATM_Prototype\obj\Debug\SE_ATM_Prototype.g.resources
 Z:\Backup 226gb\Desktopbackup\SE_ATM_Prototype\SE_ATM_Prototype\bin\Debug\SE_ATM_Prototype.exe
 Z:\Backup 226gb\Desktopbackup\SE_ATM_Prototype\SE_ATM_Prototype\bin\Debug\SE_ATM_Prototype.pdb
+C:\Users\genovaandrew\Documents\GitHub\atm_madness\SE_ATM_Prototype\obj\Debug\SE_ATM_Prototype.exe
+C:\Users\genovaandrew\Documents\GitHub\atm_madness\SE_ATM_Prototype\obj\Debug\SE_ATM_Prototype.pdb
+C:\Users\genovaandrew\Documents\GitHub\atm_madness\SE_ATM_Prototype\bin\Debug\SE_ATM_Prototype.exe
+C:\Users\genovaandrew\Documents\GitHub\atm_madness\SE_ATM_Prototype\bin\Debug\SE_ATM_Prototype.pdb
+C:\Users\genovaandrew\Documents\GitHub\atm_madness\SE_ATM_Prototype\obj\Debug\SE_ATM_Prototype.csprojResolveAssemblyReference.cache
+C:\Users\genovaandrew\Documents\GitHub\atm_madness\SE_ATM_Prototype\obj\Debug\MainWindow.baml
+C:\Users\genovaandrew\Documents\GitHub\atm_madness\SE_ATM_Prototype\obj\Debug\SelectionWindow.baml
+C:\Users\genovaandrew\Documents\GitHub\atm_madness\SE_ATM_Prototype\obj\Debug\WelcomeScreen.baml
+C:\Users\genovaandrew\Documents\GitHub\atm_madness\SE_ATM_Prototype\obj\Debug\MainWindow.g.cs
+C:\Users\genovaandrew\Documents\GitHub\atm_madness\SE_ATM_Prototype\obj\Debug\SelectionWindow.g.cs
+C:\Users\genovaandrew\Documents\GitHub\atm_madness\SE_ATM_Prototype\obj\Debug\WelcomeScreen.g.cs
+C:\Users\genovaandrew\Documents\GitHub\atm_madness\SE_ATM_Prototype\obj\Debug\App.g.cs
+C:\Users\genovaandrew\Documents\GitHub\atm_madness\SE_ATM_Prototype\obj\Debug\SE_ATM_Prototype_MarkupCompile.cache
+C:\Users\genovaandrew\Documents\GitHub\atm_madness\SE_ATM_Prototype\obj\Debug\SE_ATM_Prototype.g.resources
