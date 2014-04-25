@@ -43,7 +43,8 @@ namespace SE_ATM_Prototype
 
         private void EndButton_Click(object sender, RoutedEventArgs e)
         {
-
+            bank.endSession();
+            this.Close();
         }
 	}
 }
