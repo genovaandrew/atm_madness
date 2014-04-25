@@ -9,8 +9,10 @@
 
 	<Grid x:Name="LayoutRoot">
 		<TextBlock Height="24" Margin="282.975,55,0,0" TextWrapping="Wrap" Text="Hello!" VerticalAlignment="Top" Width="83.122" FontSize="18.667" HorizontalAlignment="Left"/>
-		<TextBlock Height="24" Margin="222,83,0,0" TextWrapping="Wrap" Text="Please enter your PIN to proceed" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-		<TextBox Height="19" Margin="268,111,273,0" TextWrapping="Wrap" Text="Enter PIN" VerticalAlignment="Top"/>
-		<Button HorizontalAlignment="Right" Height="19" Margin="0,111,227.397,0" VerticalAlignment="Top" Width="30.506" Content="OK" Click="ok_click"/>
+		<TextBlock Height="24" Margin="200,83,0,0" TextWrapping="Wrap" Text="Please enter your Name and PIN to proceed" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBox Height="19" Name="User" Margin="268,111,273,0" TextWrapping="Wrap" Text="Enter Name" VerticalAlignment="Top"/>
+        <TextBox Height="19" Name="Pin" Margin="268,140,273,0" TextWrapping="Wrap" Text="Enter PIN" VerticalAlignment="Top"/>
+		<Button HorizontalAlignment="Right" Height="19" Margin="0,175,280,0" VerticalAlignment="Top" Width="60" Content="Login" Click="ok_click"/>
+        <Button HorizontalAlignment="Right" Height="19" Margin="0,205,280,0" VerticalAlignment="Top" Width="60" Content="Exit"  Click="exit_click"/>
 	</Grid>
 </Window>

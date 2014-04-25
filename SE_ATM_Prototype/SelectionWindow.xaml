@@ -28,6 +28,10 @@
 				<Button Content="Balance" Name="BalButton" Click="BalButton_Click" Width="200" Height="40" Grid.Column="1" Margin="15.54,0,100.717,58.513" VerticalAlignment="Bottom" Background="#FFE04444"/>
 				<Button Content="Withdraw" Name="WithButton" Click="WithButton_Click"  Margin="15.54,99.17,100.717,110.83" Width="200" RenderTransformOrigin="0.514,-4.125" Grid.Column="1" Background="#FFE04444"/>
 				<Button Content="End Session" Name="EndButton" Click="EndButton_Click" Width="200" Height="40" Grid.Column="1" Margin="15.54,0,100.717,8" VerticalAlignment="Bottom" Background="#FFE04444"/>
+				<TextBox Grid.Column="1" Name="WithAmt" HorizontalAlignment="Right" Margin="0,98.943,8,110.83" TextWrapping="Wrap" Text="Enter Amount" Width="63.018" FontSize="16"/>
+				<TextBox Grid.Column="1" Name="DepAmt" HorizontalAlignment="Right" Margin="0,45.345,8,0" TextWrapping="Wrap" Text="Enter Amount" Width="63.018" Height="40.227" VerticalAlignment="Top" FontSize="16"/>
+				<TextBlock Grid.Column="1" HorizontalAlignment="Right" Height="20.886" Margin="0,45.572,75.018,0" TextWrapping="Wrap" Text="$" VerticalAlignment="Top" Width="12.742" Background="White" RenderTransformOrigin="1.213,0.602"/>
+				<TextBlock Grid.Column="1" HorizontalAlignment="Right" Height="20.886" Margin="0,98.943,75.018,0" TextWrapping="Wrap" Text="$" VerticalAlignment="Top" Width="12.742" Background="White" RenderTransformOrigin="1.213,0.602"/>
 			</Grid>
 		</Viewbox>
 	</Grid>

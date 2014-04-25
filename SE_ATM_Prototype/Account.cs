@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SE_ATM_Prototype
 {
-    class Account
+    public class Account
     {
         private String name;
         private int acctno;

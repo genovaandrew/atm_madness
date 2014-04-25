@@ -20,6 +20,12 @@ namespace SE_ATM_Prototype
             populateList();
         }
 
+        public Account CurrentUser
+        {
+            get { return currentUser; }
+            set { currentUser = value; }
+        }
+        
 
         public void populateList()
         {
@@ -32,10 +38,10 @@ namespace SE_ATM_Prototype
             accountList.Add(acct3);
         }
 
-        public void startSession(String name)
+        public Boolean startSession(String name, int pin)
         {
-            Boolean isTrue = true;
-            for (int i = 0; i < accountList.Count-1 && isTrue; i++)
+            Boolean isTrue = true; // value that is true if name is not in list of accounts
+            for (int i = 0; i < accountList.Count && isTrue; i++)
             {
                 if (name == accountList.ElementAt(i).Name)
                 {
@@ -43,17 +49,34 @@ namespace SE_ATM_Prototype
                     isTrue = false;
                 }
             }
+
+            if (isTrue) //If the name is not in list of accounts, return false
+            {
+                return false;
+            }
+            else if (currentUser.Pinno == pin) //Otherwise, if name is in list, check if the given pin works, if so return true
+            {
+                return true;
+            }
+            else // if the given pin doesnt work, don't start a session and return false
+            {
+                currentUser = null;
+                return false;
+            }
+            
         }
 
-        public void withdraw(double money)
+        public Boolean withdraw(double money)
         {
             if (currentUser.Balance >= money)
             {
                 currentUser.Balance -= money;
+                return true;
             }
             else
             {
                 MessageBox.Show("Insufficient funds.");
+                return false;
             }
         }
 
