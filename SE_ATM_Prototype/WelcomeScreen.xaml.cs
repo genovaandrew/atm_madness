@@ -33,5 +33,15 @@ namespace SE_ATM_Prototype
 			sw.Show();
 			this.Close();
 		}
+
+        private void ClearBtn_Click(object sender, RoutedEventArgs e)
+        {
+            pinBox.Text = string.Empty;
+        }
+
+        private void pinBox_GotMouseCapture(object sender, MouseEventArgs e)
+        {
+            pinBox.Text = string.Empty;
+        }
 	}
 }
